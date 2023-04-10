@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: gainsboro;
+    
+}
+header{
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    background-color: aqua;
+}
+b{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#nav1{
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+}
+aside{
+    text-align: center;
+    background-color: aqua;
+    height: 350px;
+    width: 310px;
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+}
+section{
+    height: 350px;
+    width: 675px;
+    text-align: center;
+    background-color: aqua;
+    position: absolute;
+    left: 25%;
+    border-radius: 10px;
+}
+#textoSection{
+    top: 5%;
+
+}
+article{
+    text-align: center;
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    border-radius: 10px;
+}
+#nav2{
+    text-align: center;
+    background-color: aqua;
+    height: 350px;
+    width: 310px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+}
+footer{
+    text-align: center;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    position: absolute;
+    top: 84%;
+    width: 97%;
+}

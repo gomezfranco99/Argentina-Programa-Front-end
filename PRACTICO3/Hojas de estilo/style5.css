@@ -1,0 +1,133 @@
+body {
+    background: no-repeat url(../Imagenes/wallpaperflare.com_wallpaper.jpg);
+    background-size: 100%;
+    
+}
+nav{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+table{
+    border-collapse: collapse;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+th{ 
+    background-color: darkgreen;
+    font-size:25px;
+    height: 40px;
+}
+td{
+    width:100px;
+    height: 50px;
+}
+.black{
+    background-color: black;
+}
+.teal{
+    background-color: teal;
+}
+.blue{
+    background-color: blue;
+}
+.navy{
+    background-color: navy;
+}
+.lime{
+    background-color: lime;
+}
+.white{
+    background-color: white;
+}
+.purple{
+    background-color: purple;
+}
+.yellow{
+    background-color: yellow;
+}
+.olive{
+    background-color: olive;
+}
+.red{
+    background-color: red;
+}
+.maroon{
+    background-color: maroon;
+}
+.gray{
+    background-color: gray;
+}
+.fuchsia{
+    background-color: fuchsia;
+}
+.green{
+    background-color: green;
+}
+.aqua{
+    background-color: aqua;
+}
+.silver{
+    background-color: silver;
+}
+
+
+
+.teal1{
+    color: teal;
+}
+.blue1{
+    color: blue;
+}
+.navy1{
+    color: navy;
+}
+.lime1{
+    color: lime;
+}
+.white1{
+    color: white;
+}
+.purple1{
+    color: purple;
+}
+.yellow{
+    color: yellow;
+}
+.olive1{
+    color: olive;
+}
+.red1{
+    color: red;
+}
+.maroon{
+    color: maroon;
+}
+.gray1{
+    color: gray;
+}
+.fuchsia1{
+    color: fuchsia;
+}
+.green1{
+    color: green;
+}
+.aqua1{
+    color: aqua;
+}
+.silver1{
+    color: silver;
+}
+section{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 635px;
+}
+span{
+    font-size: 35px;
+}

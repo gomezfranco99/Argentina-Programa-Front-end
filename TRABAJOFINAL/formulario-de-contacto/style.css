@@ -1,0 +1,130 @@
+body{
+    background: url(../formulario-de-contacto/photo-1542831371-29b0f74f9713.jpg)no-repeat;
+    background-size:100% ;
+}
+.form{
+    width:340px;
+    height:440px;
+    background:#e6e6e6;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 270px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative
+}
+h2{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color:#5B8FB9;
+    border-bottom:3px solid #5B8FB9
+}
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #ABC4AA
+}
+input:focus{
+    border-bottom:2px solid  #5A8F7B
+}
+p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a
+}
+.boton-enviar{
+    text-decoration: none;
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #5B8FB9;
+    background:0;
+    color:#5B8FB9;
+    cursor:pointer;
+    transition:all .3s
+}
+.boton-enviar:hover{
+    background:#5B8FB9;
+    color:#fff
+}
+#form2{
+    content:'Hi';
+    position:absolute;
+    bottom:-15px;
+    right:-20px;
+    background:#50505a;
+    color:#fff;
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size:13px;
+    box-shadow:10px 10px 40px -14px #000
+}
+span{
+    margin:0 5px 0 15px
+}
+.contactar{
+    color: white;
+    text-decoration: none;
+}
+.contactar:hover{
+    color: #5B8FB9;
+}
+.navegacion{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    position: relative;
+  }
+  .botones{
+    
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    min-width: 50px;
+    height: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 50%;
+    z-index: 0;
+    background: transparent;
+    overflow: hidden;
+    border: none;
+    color: #fff;
+  }
+  .botones:hover {
+    color: #6096B4;
+    text-align: center;
+    font-size: 35px;
+  }
+  .botones:hover:after {
+    width: 100%;
+  }
+  .botones:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.5s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #BFDCE5;
+  }

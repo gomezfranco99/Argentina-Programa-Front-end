@@ -1,0 +1,49 @@
+header{
+    text-align: center;
+    height: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    color: red;
+}   
+div{
+    border-collapse: collapse;
+    width: 320px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translate(12%, 120px);
+    justify-content: center;
+    align-items: center;
+}
+img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+ul{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#div1{
+    background-color: rgb(61, 59, 59);
+    color: white;
+}
+#div2{
+    color: white;
+    background-color: rgb(247, 74, 74);
+}
+#div3{
+    background-color: rgb(255, 217, 0);
+
+}

@@ -1,0 +1,47 @@
+body{
+    background: no-repeat url(../Imagenes/black-background.jpg);
+    background-size: 100%;
+}
+img{
+    width: 600px;
+    position: absolute;
+    left: 25%;
+    border-radius: 70%;
+    filter: drop-shadow(0px 0px 100px rgb(172, 113, 29))
+}
+div{
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+h3,h4{
+    color: orange;
+}
+#receta{
+    position: absolute;
+    left: 25%;
+    top: 300px;
+    width: 600px;
+    background-color: rgba(172, 113, 29, 0.354);
+    border-radius: 20%;
+    box-shadow: 0px 0px 50px 40px rgba(172, 113, 29, 0.354) ;
+}
+#ingredientes{
+    position: absolute;
+    left: 70%;
+    top: 50px;
+    width: 200px;
+    border: solid rgba(172, 113, 29, 0.354);
+    box-shadow: 0px 0px 50px 40px rgba(172, 113, 29, 0.354);
+}
+h4{
+text-align: center;
+}
+a{
+    color: blue;
+    position: relative;
+    left: 40%;
+}
+

@@ -1,0 +1,70 @@
+#sec1{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#sec2{
+    margin-top: 70px;
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div{
+    background-color: gainsboro;
+    color: rgb(0, 0, 0);
+    height: 90px;
+    width: 200px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.texto{
+    font-size: 30px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#a{
+    box-shadow: -10px -10px gray ;
+}
+#b{
+    box-shadow: -5px -5px 6px gray ;
+}
+#c{ 
+    box-shadow: -5px -5px 0px 5px gray ; 
+}
+#d{
+    box-shadow: -6px -6px 6px 6px gray ;
+}
+#e{
+    box-shadow: 0px 0px 7px gray ;
+}
+#f{
+    box-shadow: 0px 0px 12px 10px gray ;
+}
+#g{
+    box-shadow: 4px 4px 0px 4px gray ; 
+}
+#h{
+    box-shadow: inset -6px -6px 6px gray ; 
+}
+#i{
+    box-shadow: inset -10px -10px  gray ;
+}
+#j{
+    box-shadow: inset -10px -10px 10px  gray ;
+}
+#k{
+    box-shadow: inset 0px 0px 8px gray ;
+}
+#l{
+    box-shadow: inset 0px 0px 8px 7px gray ;
+}

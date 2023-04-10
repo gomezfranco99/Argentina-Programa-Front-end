@@ -1,0 +1,99 @@
+body{
+    background-color: gainsboro;
+}
+section{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    flex-wrap: wrap;
+    width: 880px;
+}
+#fondo1,#fondo2,#fondo3,#fondo4{
+    border: solid white 15px;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    margin: 5px;   
+    background-color:rgba(255, 128, 0, 0.483);
+    position:auto;
+}
+h2{
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.805);
+    color: white;
+    height: 50px;
+    position: relative;
+}
+.textoA{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    width: 100%;
+}
+#a{
+    border: none;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    top: 10%;
+    
+}
+.textoB{
+    position:absolute;
+    transform: translate(-50%,-50%);
+    border: none;
+    top: 50%;
+    left: 50%;
+    width:100% ; 
+    background-color: black;
+}
+#imagenSerrat{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: .3;
+}
+#imagenArjona{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    opacity: .3;
+}
+#imagenNadal{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    opacity: .3;
+}
+#imagenPark{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    opacity: .3;
+}
+p{  position: relative;
+    margin: 20px;
+    font-size: 18px;
+    color: white;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(0, 113, 151);
+}
+
